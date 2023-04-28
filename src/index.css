@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: dimgray;
+}
+
+.heading {
+  display: flex;
+  padding: 5px 2rem;
+  padding-bottom: 2rem;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #000;
+}
+
+.name {
+  color: #fff;
+  margin-top: -1rem;
+}
+
+.name span {
+  color: #4e9f3d;
+}
+
+.name a {
+  color: #fff;
+}
+
+.name a :hover {
+  color: #4e9f3d;
+}
+
+.menu ul {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.menu li {
+  list-style: none;
+  margin-right: 2rem;
+  font-size: 20px;
+}
+
+.menu li :hover {
+  color: #4e9f3d;
+  cursor: default;
+  font-size: 22px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #000;
+  padding: 6rem 0;
+}
+
+.i {
+  margin-left: 1.5rem;
+}
+
+.carrer {
+  padding: 2rem 10rem;
+  width: 40%;
+  margin: 1rem auto;
+  color: dimgray;
+  margin-bottom: 3rem;
+}
+
+.carrer h3 {
+  font-size: 30px;
+}
+
+.carrer li {
+  border-bottom: 0.7px dotted #000;
+  list-style: none;
+  padding: 6px;
+}
+
+.skills {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+.skills h3 {
+  font-size: 30px;
+  margin-left: 350px;
+}
+
+.skill {
+  width: 60%;
+  margin: 3.5rem auto;
+  margin-top: 1.5rem;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills li {
+  list-style: none;
+  width: 30%;
+}
+
+.contact {
+  padding: 2rem;
+}
+
+.contact h3 {
+  font-size: 30px;
+  margin-left: 370px;
+}
+
+.contact-info {
+  text-align: left;
+  margin: 3rem auto;
+  display: table;
+}
+
+.contact-info li {
+  list-style: none;
+  margin-bottom: 1rem;
+  font-size: larger;
+}
+
+.contact-info p {
+  border-bottom: #191a19 0.7px solid;
+  margin-top: 7px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #191a19;
+}
+
+.contact-info p :hover {
+  opacity: 0.6;
+}
