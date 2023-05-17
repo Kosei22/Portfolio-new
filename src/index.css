@@ -98,9 +98,11 @@ body {
   justify-content: space-evenly;
 }
 
-.skills li {
+.skills a {
   list-style: none;
-  width: 30%;
+  width: 25%;
+  text-decoration: none;
+  color: #fff;
 }
 
 .contact {
@@ -131,7 +133,7 @@ body {
 
 .contact-info a {
   text-decoration: none;
-  color: #191a19;
+  color: dimgray;
 }
 
 .contact-info p :hover {

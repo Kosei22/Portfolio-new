@@ -14,18 +14,24 @@ function Skills(){
                 </div>
                 <div className="products">
                     <ul>
-                        <li>
-                            <img src={keeper} alt="" width="300px" height="180px"/>
-                            <p>シンプルなToDOリスト、メモのようなアプリです。</p>
-                        </li>
-                        <li>
-                            <img src={ec} alt="" width="300px" height="180px"/>
-                            <p>APIを使ってECサイトを1から作ってみました。<br/>バックエンドは使っていないので基本的な機能とデザイン重視です。</p>
-                        </li>
-                        <li>
-                            <img src={netkeirin} alt="" width="300px" height="180px"/>
-                            <p>netkeirinのモバイル用サイトのトップページとサイドメニューをクローンしてみました。画像が一部単色の画像になっています。</p>
-                        </li>
+                        <a href="https://keeper-pr.netlify.app" target="_blank">
+                            <li>
+                                <img src={keeper} alt="" width="300px" height="180px"/>
+                                <p>シンプルなToDOリスト、メモのようなアプリです。</p>
+                            </li>
+                        </a>
+                        <a href="https://fashion-ec.netlify.app" target="_blank">
+                            <li>
+                                <img src={ec} alt="" width="300px" height="180px"/>
+                                <p>APIを使ってECサイトを1から作ってみました。<br/>バックエンドは使っていないので基本的な機能とデザイン重視です。</p>
+                            </li>
+                        </a>
+                        <a href="https://netkeirin-clone.netlify.app" target="_blank">
+                            <li>
+                                <img src={netkeirin} alt="" width="300px" height="180px"/>
+                                <p>netkeirinのモバイル用サイトのトップページとサイドメニューをクローンしてみました。画像が一部単色の画像になっています。</p>
+                            </li>
+                        </a>
                     </ul>
                 </div>
             </div>
